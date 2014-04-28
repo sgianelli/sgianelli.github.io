@@ -23,12 +23,12 @@ theme:
     #gplus: 110552447039675960964
 
   # "Hi, I'm _______"
-  name: Matt Swanson
-  email: test@example.com
-  tagline: "weak opinions, strongly held"
+  name: Shane Gianelli
+  email: sgianelli@sj-dev.com
+  tagline: "developer, freelancer, opportunist"
 
   # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-xxxx-x
+  google_analytics_key: UA-50443625-1
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: true
