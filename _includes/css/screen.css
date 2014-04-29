@@ -42,6 +42,17 @@ h3 {
   margin: 1em 0;
 }
 
+h2.resume {
+  line-height: 26px;
+  color: {{ site.theme.highlight_color }};
+}
+
+h4.resume {
+  font-size: 18px;
+  line-height: 22px;
+  color: {{ site.theme.damp_highlight_color }};
+}
+
 ul {
   margin: 1em 0;
   list-style: disc;
@@ -251,4 +262,10 @@ i.fa-hn {
   text-align: center;
   font-size: smaller;
   padding-bottom: 10px
+}
+
+span.detail {
+    font-size: 16px;
+    color: #999999;
+    float: right;
 }

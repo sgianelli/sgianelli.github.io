@@ -9,6 +9,7 @@ markdown: kramdown
 theme:
   # Color for top bar, links, etc
   highlight_color: '#3498db'
+  damp_highlight_color: '#59A1D1'
 
   # Profile links on the left sidebar, leave blank to ignore
   social:
