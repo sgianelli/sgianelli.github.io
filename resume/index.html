@@ -3,6 +3,13 @@ layout: default
 title: Resume
 ---
 
+<script>
+    document.onload(function () {
+        var element = document.getElementById("#intro")
+        element.innerHTML = element.innerHTML.replace("$age", "" + ((new Date(Date.now() - (new Date(1992,9,18)))).getUTCFullYear() - 1970))
+    }
+</script>
+
 <p class="meta">
   <a href="/">
     <i class="home fa fa-home"></i>
@@ -14,8 +21,8 @@ title: Resume
 <div id="post">
     <hr />
     <h1>Bio</h1>
-    <p>
-        My name is Shane Gianelli, I am a 21 year old software developer from
+    <p id="intro">
+        My name is Shane Gianelli, I am a $age year old software developer from
         Arizona, preparing to move to Seattle, Washington in the next couple of
         months as I graduate college.
     </p>
