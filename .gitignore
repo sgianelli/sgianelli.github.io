@@ -1,3 +1,42 @@
-_site
-_posts/2013-08-12-another-sample.md
-_posts/2013-08-20-sample-post.md
+################################################################################
+# Jekyll.gitignore
+################################################################################
+
+_site/
+.sass-cache/
+
+################################################################################
+# Vim.gitignore
+################################################################################
+
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+################################################################################
+# OSX.gitignore
+################################################################################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
