@@ -33,11 +33,13 @@ title: Bookmarks
     <hr/>
 
     {% for post in site.posts %}
-        {% if post.layout == 'bookmark' && post.tags contains 'cs' %}
-        <p>
-        {{ post.content }}
-        <span class="datetime">{{ post.date | date_to_string }}</span>
-        </p>
+        {% if post.layout == 'bookmark' %}
+            {% if post.tags contains "cs" %}
+            <p>
+            {{ post.content }}
+            <span class="datetime">{{ post.date | date_to_string }}</span>
+            </p>
+            {% endif %}
         {% endif %}
     {% endfor %}
 
@@ -46,11 +48,13 @@ title: Bookmarks
     <hr/>
 
     {% for post in site.posts %}
-        {% if post.layout == 'bookmark' && post.tags contains 'tools' %}
-        <p>
-        {{ post.content }}
-        <span class="datetime">{{ post.date | date_to_string }}</span>
-        </p>
+        {% if post.layout == 'bookmark' %}
+            {% if post.tags contains "tools" %}
+            <p>
+            {{ post.content }}
+            <span class="datetime">{{ post.date | date_to_string }}</span>
+            </p>
+            {% endif %}
         {% endif %}
     {% endfor %}
 </div>
