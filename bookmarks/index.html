@@ -18,8 +18,8 @@ title: Bookmarks
 
     {% for post in site.posts %}
         {% if post.layout == 'bookmark' && post.tags contains 'ios' %}
-        <p>{{ post.title }}<br/>
-        {{ post.body }}<br/>
+        <p>
+        {{ post.content }}<br/>
         {{ post.date | date_to_string }}
         </p>
         {% endif %}
