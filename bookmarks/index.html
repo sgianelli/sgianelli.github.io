@@ -19,7 +19,6 @@ title: Bookmarks
     {% for post in site.posts %}
         {% if post.layout == 'bookmark' %}
             {% if post.tags contains "ios" %}
-            {{ post.tags }}
             <p>
             {{ post.content }}
             <span class="datetime">{{ post.date | date_to_string }}</span>
