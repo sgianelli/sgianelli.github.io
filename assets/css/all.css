@@ -5,3 +5,8 @@
 {% include css/screen.css %}
 {% include css/layout.css %}
 {% include css/syntax.css %}
+
+.datetime {
+    font-size: 12px;
+    color: #ccc;
+}
