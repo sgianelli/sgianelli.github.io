@@ -17,7 +17,7 @@ title: Bookmarks
     <hr/>
 
     {% for post in site.posts %}
-        {% if post.layout == 'bookmark' && post.tags contains 'ios' %}
+        {% if post.layout == 'bookmark' && post.tags contains "ios" %}
         <p>
         {{ post.content }}
         <span class="datetime">{{ post.date | date_to_string }}</span>
