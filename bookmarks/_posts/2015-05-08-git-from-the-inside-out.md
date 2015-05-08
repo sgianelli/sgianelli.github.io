@@ -1,7 +1,9 @@
 ---
 layout: bookmark
 title: Git from the inside out
-tags: tools bookmark
+tags:
+ - tools
+ - bookmark
 ---
 
 [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
