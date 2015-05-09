@@ -18,7 +18,7 @@ title: Bookmarks
 
     {% for post in site.posts %}
         {% if post.layout == 'bookmark' %}
-            {% if post.tags contains "ios" %}
+            {% if post.tags contains 'ios' %}
             <p>
             {{ post.content }}
             <span class="datetime">{{ post.date | date_to_string }}</span>
@@ -33,7 +33,7 @@ title: Bookmarks
 
     {% for post in site.posts %}
         {% if post.layout == 'bookmark' %}
-            {% if post.tags contains "cs" %}
+            {% if post.tags contains 'cs' %}
             <p>
             {{ post.content }}
             <span class="datetime">{{ post.date | date_to_string }}</span>
@@ -48,7 +48,7 @@ title: Bookmarks
 
     {% for post in site.posts %}
         {% if post.layout == 'bookmark' %}
-            {% if post.tags contains "tools" %}
+            {% if post.tags contains 'tools' %}
             <p>
             {{ post.content }}
             <span class="datetime">{{ post.date | date_to_string }}</span>
@@ -56,4 +56,20 @@ title: Bookmarks
             {% endif %}
         {% endif %}
     {% endfor %}
+
+    <h1>Bitcoin</h1>
+
+    <hr/>
+
+    {% for post in site.posts %}
+        {% if post.layout == 'bookmark' %}
+            {% if post.tags contains 'bitcoin' %}
+            <p>
+            {{ post.content }}
+            <span class="datetime">{{ post.date | date_to_string }}</span>
+            </p>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
 </div>
