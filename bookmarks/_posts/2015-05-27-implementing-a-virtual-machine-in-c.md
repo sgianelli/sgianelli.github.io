@@ -1,6 +1,6 @@
 ---
 layout: bookmark
-title: Git from the inside out
+title: Virtual Machine In C
 tags:
  - cs
  - bookmark
