@@ -27,6 +27,21 @@ title: Bookmarks
         {% endif %}
     {% endfor %}
 
+    <h1>Web Development</h1>
+
+    <hr/>
+
+    {% for post in site.posts %}
+        {% if post.layout == 'bookmark' %}
+            {% if post.tags contains 'web' %}
+            <p>
+            {{ post.content }}
+            <span class="datetime">{{ post.date | date_to_string }}</span>
+            </p>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
     <h1>Computer Science</h1>
 
     <hr/>
