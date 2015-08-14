@@ -2,7 +2,7 @@
 layout: bookmark
 title: Tutorial - Beginner's Guide to Fuzzing
 tags:
- - cs
+ - tools
  - bookmark
 ---
 
