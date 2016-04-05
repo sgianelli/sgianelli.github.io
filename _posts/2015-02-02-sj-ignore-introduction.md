@@ -5,7 +5,7 @@ tags: ruby git open-source
 ---
 
 Last week I threw together a simple little command line utility in ruby called
-[sj_ignore](https://github.com/sjdev/sj-ignore) that I have actually found
+[sj_ignore](https://github.com/sgianelli/sj-ignore) that I have actually found
 really useful since then and was a good excuse to learn the basics of packaging
 my own gems.  sj_ignore is really simple, run from the terminal, it makes it
 easy to create a custom .gitignore file for a project by using the
@@ -51,5 +51,5 @@ be incredibly handy and I find myself not lazily creating .gitignore files
 anymore.
 
 If you find any issues with it or have any suggestions for me, please open a
-new [issue](http://github.com/sjdev/sj-ignore/issues) and pull requests are
+new [issue](http://github.com/sgianelli/sj-ignore/issues) and pull requests are
 always encouraged!
